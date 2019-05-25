@@ -1,0 +1,27 @@
+3. Fazer os exercícios de 1 a 15 do arquivo “Exemplo de Herança – Contribuinte”
+
+3.5. A organização das classes ocorre de forma que a Superclasse é representada por Contribuinte.java, enquanto as Subclasses são representadas por PessoaFisica.java, PessoaJuridica.java e Funcionario.java. A classe que se utiliza da generalização de atributos e métodos é a Funcionario.java.
+
+3.6. Os atributos possuem como tipo o private, isto é, são restritos à classe-mãe e só são acessados externamente através dos métodos existentes na classe-mãe.
+
+3.7. Os métodos têm em comum o fato de serem todos do tipo público.
+
+3.8. Métodos:
+ - get(): não possuem retorno, somente um parâmetro String como entrada;
+ - set(): possuem retorno do tipo String e nenhum parâmetro.
+
+3.9. O operador this é utilizado quando existe a necessidade de se fazer uso de algum atributo da classe. Sem esse operador, apenas uma variável comum é utilizada (se for previamente inicializada, caso contrário um erro existirá).
+
+3.10. Um package pode ser considerado um diretório. Sua funcionalidade é separar certas seções de classes de um sistema específico.
+
+3.11. A UML (Unified Modeling Language), ou, em português, Linguagem Unificada de Modelagem, é uma linguagem padrão para modelagem orientada a objetos.
+
+3.12. O primeiro campo representa o nome da classe
+
+3.13. O segundo campo são representados os atributos da classe.
+Formato: (público "+" ou privado "-", por exemplo) nome do atributo : tipo do atributo
+Observação: Desconsiderar os parenteses.
+
+3.14. Questão duplicada
+
+3.15. O sinal "+" significa que o atributo (ou método) é público, já o sinal "-" tem o efeito contrário, indicando que algo é privado.
